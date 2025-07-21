@@ -1,0 +1,25 @@
+# 🎵 Hand Gesture Music Controller (MediaPipe + PyAutoGUI + PyCAW)
+
+Built using:
+- [MediaPipe] for hand tracking
+- [PyAutoGUI] for controlling media keys
+- [PyCAW] for system volume control
+- [OpenCV] for camera and UI
+
+## ✋ Supported Gestures
+
+| Gesture                | Action            |
+|------------------------|-------------------|
+| All fingers down       | Play/Pause        |
+| Only index finger up   | Next Song         |
+| Index + Middle up      | Previous Song     |
+| Only thumb up          | Volume Up         |
+| Only pinky up          | Volume Down       |
+
+
+## 🛠️ Setup
+
+### 1. Install dependencies
+
+```bash
+pip install opencv-python mediapipe pyautogui pycaw comtypes
